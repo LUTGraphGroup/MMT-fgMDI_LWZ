@@ -32,6 +32,11 @@ MMT-fgMDI: Metapath-driven multimodal transformer framework for predicting fine-
 - metabolite initial feature: metabolite_mol2vec.csv
 - disease initial feature: Mesh2vec.csv
 - gene initial feature: DNA2vec.csv
+- Centrality feature of drug-disease association network: Dr-Di_centrality.csv
+- Centrality feature of drug-gene association network: Dr-G_centrality.csv
+- Centrality feature of metabolite-disease association network: M-Di_centrality.csv
+- Centrality feature of metabolite-gene association network: M-G_centrality.csv
+
 ```
 ###   multimodal networks 
 ![multimodal networks](https://github.com/user-attachments/assets/dce6e7f4-2a73-4e7f-bd90-da7614eba192)
