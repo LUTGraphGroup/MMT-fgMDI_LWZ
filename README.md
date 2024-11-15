@@ -56,11 +56,11 @@ MMT-fgMDI: Metapath-driven multimodal transformer framework for predicting fine-
 
 ## 🎯 How to run?
 ```
-1. The data1 and data2 folders store the association networks, disease and metabolite networks, and initial characterization data for datasets 1 and 2, respectively.
-2. The code folder for implementing the RGCGT model, which specifically includes:
-  (1) train.py is used to start the RGCGT model and set up parameters, implement training and validation, loss function definition, optimizer selection and parameter update.
-  (2) model.py is used to build the overall structure of the RGCGT model, including residual graph convolution (RGC), graph transformer (GT) with multi-hop neighbor aggregation and decoder.
+1. The folder of the dataset stores various associations and initial feature information..
+2. The graph_transformer folder for implementing the MMT-fgMDI model, which specifically includes:
+  (1) train.py is used to start the MMT-fgMDI model and set up parameters, implement training and validation, loss function definition, optimizer selection and parameter update.
+  (2) model.py is used to build the overall structure of the MMT-fgMDI model, including metapath-driven multimodal transformer encoder and decoder.
   (3) layers.py mainly stores some customized network layers, including multi-head self-attention layer and feed-forward network, etc.
-  (4) utils.py mainly realizes data loading, evaluation index calculation and plot, etc.
-3. The results folder stores detailed experimental results on datasets 1 and 2 using jupyter notebook.
+  (4) utils.py mainly realizes data loading, confusion matrix and t-sne visualization, etc.
+3. The results folder stores detailed experimental results.
 ```
