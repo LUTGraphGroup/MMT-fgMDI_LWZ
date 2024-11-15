@@ -2,7 +2,7 @@
 MMT-fgMDI: Metapath-driven multimodal transformer framework for predicting fine-grained metabolite-drug interactions
 
 ## 🏠 Overview
-![flow_chart](https://github.com/user-attachments/assets/cc0df7cc-6b0c-4dff-8520-5c199ee3efc5)
+![flow_chart](https://github.com/user-attachments/assets/4afa488c-047b-495a-a41e-9d4ecd7b9f20)
 
 ## 🛠️ Dependecies
 ```
