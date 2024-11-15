@@ -8,8 +8,8 @@ import torch.nn.functional as F
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, classification_report, confusion_matrix
 from sklearn.preprocessing import label_binarize
 
-# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = torch.device('cpu')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# device = torch.device('cpu')
 # training parameters
 parser = argparse.ArgumentParser()
 
