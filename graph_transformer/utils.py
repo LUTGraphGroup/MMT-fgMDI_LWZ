@@ -9,8 +9,8 @@ import seaborn as sns
 from sklearn.manifold import TSNE
 from sklearn.preprocessing import StandardScaler
 
-# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = torch.device('cpu')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# device = torch.device('cpu')
 
 
 def load_data(seed, n_components, pe_dim, hops):
