@@ -19,38 +19,39 @@ MMT-fgMDI: Metapath-driven multimodal transformer framework for predicting fine-
 ```
 
 ## 🗓️ Dataset
-###  Dataset 1: 265 diseases, 2315 metabolites, and 4763 known associations 
+###  
 ```
-- disease-metabolite details: disease-metabolite.xlsx
-- disease-metabolite associations: association_matrix.csv
-- disease similarity matirix: diease_simi_network.csv
-- metabolite similarity matirix: metabolite_simi_ntework.csv
-- disease initial feature: MeSHHeading2vec.csv
+- drug-metabolite upregulation network: Dr-Up-M.csv
+- drug-metabolite downregulation network: Dr-Down-M.csv
+- drug-metabolite assciations: Dr-M.csv
+- drug-disease assciations: Dr-Di.csv
+- drug-gene assciations: Dr-G.csv
+- metabolite-disease assciations: M-Di.csv
+- metabolite-gene assciations: M-G.csv
+- drug initial feature: drug_mol2vec.csv
 - metabolite initial feature: metabolite_mol2vec.csv
+- disease initial feature: Mesh2vec.csv
+- gene initial feature: DNA2vec.csv
 ```
-###  Dataset 2: 126 diseases, 1405 metabolites, and 2555 known associations 
-```
-- disease-metabolite details: disease-metabolite.xlsx
-- disease-metabolite associations: association_matrix.csv
-- disease similarity matirix: diease_simi_network.csv
-- metabolite similarity matirix: metabolite_simi_ntework.csv
-- disease initial feature: MeSHHeading2vec.csv
-- metabolite initial feature: metabolite_mol2vec.csv
-```
+###   multimodal networks 
+![multimodal networks](https://github.com/user-attachments/assets/dce6e7f4-2a73-4e7f-bd90-da7614eba192)
+
+
 
 ## 🛠️ Model options
 ###  training parameters
 ```
 --seed             int     Random seed                                Default is 0.
---epochs           int     Number of training epochs.                 Default is 500.
+--epochs           int     Number of training epochs.                 Default is 1000.
 --weight_decay     float   Weight decay                               Default is 5e-4.
 --dropout          float   Dropout rate                               Default is 0.1.
---lr               float   Learning rate                              Default is 0.001.
+--lr               float   Learning rate                              Default is 0.01.
 ```
 
 ###  model parameters
 
-![model_parameter](https://github.com/LUTGraphGroup/GRCGT_LWZ/assets/109469869/9add4d20-6dad-4b94-82e2-c91e0d75bc0e)
+![model parameters](https://github.com/user-attachments/assets/52188fe0-3940-42fa-aa63-884b47e1c489)
+
 
 
 ## 🎯 How to run?
