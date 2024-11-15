@@ -3,7 +3,8 @@ MMT-fgMDI: Metapath-driven multimodal transformer framework for predicting fine-
 
 ## 🏠 Overview
 ![flow chart](https://github.com/LUTGraphGroup/GRCGT_LWZ/assets/109469869/03b68056-4f73-43f7-a063-c5088a279750)
-![Uploading flow_chart.jpg…]()
+![flow_chart](https://github.com/user-attachments/assets/cc0df7cc-6b0c-4dff-8520-5c199ee3efc5)
+
 
 
 ## 🛠️ Dependecies
